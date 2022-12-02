@@ -1,0 +1,25 @@
+h3
+{
+ font-size: 25px !important;
+}
+.btn-success:hover
+{
+ background-color: rgb(112, 192, 230);
+}
+canvas{
+    animation-name: exampel;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exampel{
+    0%{box-shadow: 1px 1px 38px rgb(33, 115, 124);}
+    25%{box-shadow: 1px 1px 38px rgb(22, 180, 172);}
+    50%{box-shadow: 1px 1px 38px rgb(59, 179, 231);}
+    75%{box-shadow: 1px 1px 38px rgb(19, 72, 94);}
+    100%{box-shadow: 1px 1px 38px rgb(20, 42, 113);}
+} 
+ body
+ {
+ background-size: 200px 300px ;
+ }
